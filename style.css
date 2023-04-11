@@ -171,3 +171,60 @@ body {
     color: var(--primary-orange);
     cursor: pointer;
 }
+
+
+/* ====================== Back Card =============================== */
+.back-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5rem;
+    align-items: center;
+}
+
+.svg-img {
+    margin: 2.125rem 4.188rem 1.813rem 4.25rem;
+    /* margin-top: 1.3rem; */
+    width: 9rem;
+    height: 6rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.rating {
+    background-color: var(--neutral-medium-grey);
+    color: var(--primary-orange);
+    /* margin-top: 1.813rem; */
+    margin: 0.4rem 3.438rem 1.5rem 4.5rem;
+
+    width: 10.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.406rem;
+    font-size: 0.875rem;
+    /* font-size: var(--paragraph-font-size); */
+    /* text-align: center; */
+    padding: 0.213rem 0.415rem;
+
+}
+
+
+.thanks {
+    color: var(--neutral-white);
+    text-transform: capitalize;
+    /* margin: 0.4rem 3.9rem; */
+    font-size: 0.938rem;
+    line-height: 1.899rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.info {
+    color: var(--neutral-light-grey);
+    font-size: var(--paragraph-font-size);
+    text-align: center;
+    line-height: 1.375rem;
+}
